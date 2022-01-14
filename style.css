@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  background-image: url("pics/sunshin-bg.jpg");
+
+  color: black;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+header {
+  background-color: darkorange;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Rubik Beastly", cursive;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+img {
+  width: 20vw;
+
+  -webkit-filter: drop-shadow(10px 10px 20px #222);
+  filter: drop-shadow(20px 20px 20px #222);
+}
+
+p {
+  font-family: "Lobster", cursive;
+}
+
+a {
+  font-family: "Lobster", cursive;
+  text-decoration: none;
+}
